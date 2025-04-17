@@ -1,6 +1,6 @@
 "use client";
 
-import { FC, CSSProperties } from "react";
+import { FC } from "react";
 import { stagger, useAnimate } from "framer-motion";
 import clsx from "clsx";
 
