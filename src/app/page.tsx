@@ -13,15 +13,17 @@ export default function Home() {
   return (
     <>
       <ReactLenis root>
-        <Navbar />
-        <Hero />
-        <LogoTicker />
-        <Introduction />
-        <Features />
-        <Integrations />
-        <Faqs />
-        <CallToAction />
-        <Footer />
+        <div className="overflow-x-clip">
+          <Navbar />
+          <Hero />
+          <LogoTicker />
+          <Introduction />
+          <Features />
+          <Integrations />
+          <Faqs />
+          <CallToAction />
+          <Footer />
+        </div>
       </ReactLenis>
     </>
   );
